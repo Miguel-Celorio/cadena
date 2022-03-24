@@ -18,7 +18,7 @@ public class Cadena {
 	// hay que probarlo
 	public String invertir(String cadena) {
 		StringBuilder sb = new StringBuilder();
-		for(int i = cadena.length(); i > 0; i--) {
+		for(int i = cadena.length() - 1; i >= 0; i--) {
 			sb.append(cadena.charAt(i));
 		}
 		
